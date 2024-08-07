@@ -80,9 +80,9 @@ function App() {
   return (
     <>
       <Navbar /> {/* Render the navigation bar */}
-      <div className="flex flex-col md:flex-row bg-cream-100 h-full">
+      <div className="flex flex-col md:flex-row bg-cream-100 h-full w-full">
         
-        <div className="container md:w-2/3 mx-auto bg-cream-50 my-5 rounded-xl p-5 shadow-lg">
+        <div className="container mx-auto w-full my-5 rounded-xl p-5 shadow-lg ">
           <h1 className='font-bold text-center text-2xl text-teal-800 mb-4'>Todo List</h1>
           
           <div className="search flex justify-center mb-4">
@@ -146,19 +146,19 @@ function App() {
                     <div className="buttons flex items-center gap-2">
                       <button
                         onClick={(e) => handleEdit(e, items.id)} // Edit the todo
-                        className='bg-teal-600 hover:bg-teal-700 text-white p-2 px-3 rounded-md'
+                        className='bg-teal-600 hover:bg-teal-700 text-white p-2 px-3 rounded-md buttons'
                       >
                         <FaEdit />
                       </button>
                       <button
                         onClick={(e) => handleDelete(e, items.id)} // Delete the todo
-                        className='bg-teal-600 hover:bg-teal-700 text-white p-2 px-3 rounded-md'
+                        className='bg-teal-600 hover:bg-teal-700 text-white p-2 px-3 rounded-md buttons' 
                       >
                         <MdDelete />
                       </button>
                       <button
                         onClick={() => toggleExpand(items.id)} // Expand or collapse the todo details
-                        className='bg-teal-600 hover:bg-teal-700 text-white p-2 px-3 rounded-md'
+                        className='bg-teal-600 hover:bg-teal-700 text-white p-2 px-3 rounded-md buttons'
                       >
                         {expandedTodo === items.id ? "Collapse" : "Expand"}
                       </button>

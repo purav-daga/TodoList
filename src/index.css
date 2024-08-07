@@ -1,11 +1,22 @@
-/* Some Styles */
-.container{
-    background-color: rgb(216, 245, 245)
-}
-body{
-    background-color: rgb(244, 251, 251)   
-}
 /* Tailwind CSS */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Styles and Media Queries */
+.container {
+    background-color: rgb(216, 245, 245)
+}
+
+body {
+    background-color: rgb(244, 251, 251)
+}
+
+@media (max-width: 345px) {
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+

@@ -1,0 +1,26 @@
+
+[
+    {
+      "id": "1",
+      "todo": "Buy groceries",
+      "description": "Buy milk, eggs, and bread",
+      "date": "2024-08-05T14:48:00.000Z",
+      "isCompleted": false
+    },
+    {
+      "id": "2",
+      "todo": "Doctor appointment",
+      "description": "Annual check-up with Dr. Smith",
+      "date": "2024-08-06T09:30:00.000Z",
+      "isCompleted": false
+    },
+    {
+      "id": "3",
+      "todo": "Parents Meet",
+      "description": "Attend Parents Meet of Ashley at School",
+      "date": "2024-08-06T05:10:00.000Z",
+      "isCompleted": true
+    }
+  ]
+  
+  
